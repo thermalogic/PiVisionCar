@@ -127,5 +127,5 @@ sudo chmod 777 /home/your_name/your_dir/pi-vision-car/webapp/app_vision_car.py
 在`rc.local`中加命令运行webapp
 
 ```bash
-/home/your_name/.local/bin/flask --app /home/your_name/your_dir/webapp/app_vison_car run --host=0.0.0.0 &
+/home/your_name/.local/bin/flask --app /home/your_name/your_dir/webapp/app_vision_car run --host=0.0.0.0 &
 ```
