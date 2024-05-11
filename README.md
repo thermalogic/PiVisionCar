@@ -66,8 +66,8 @@ WIFI控制树莓派小车
 vertical_servo=Servo(18,90)     #  黄色线
 horizontal_servo=Servo(19,80) #   蓝色线
 ```
-* vertical_servo PWM ->GPIO 18
-* horizontal_servo PWM ->GPIO 19
+* vertical_servo PWM -> GPIO 18
+* horizontal_servo PWM -> GPIO 19
 
 ![mg996r](img/mg996r.jpg)
 
