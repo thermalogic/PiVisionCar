@@ -2,15 +2,13 @@
 
 基于树莓派4，集成MG996R舵机、USB摄像头和DRV8833电机驱动的4WD视觉小车。
 
-![](img/real_car_front.jpg)
+![](img/pi_vision_car.jpg)
 
 ## 功能
 
 WIFI控制树莓派小车
 * 前后，左右运动
 * 摄像头上下，左右转动
-
-![web app](img/web_app.jpg)
 
 ## 元件
 
@@ -57,7 +55,6 @@ WIFI控制树莓派小车
 
 ![](img/linked_lines_dual_powers_simple.jpg)
 
-![](img/real_car_board.jpg)
 
 ### Raspberry Pi
 
