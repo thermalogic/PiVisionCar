@@ -66,6 +66,9 @@ WIFI控制树莓派小车
 vertical_servo=Servo(18,90)     #  黄色线
 horizontal_servo=Servo(19,80) #   蓝色线
 ```
+* vertical_servo PWM ->GPIO 18
+* horizontal_servo PWM ->GPIO 19
+
 ![mg996r](img/mg996r.jpg)
 
 ### DRV8833
@@ -77,11 +80,11 @@ class Motor:
 motor = Motor(5,6,27,17)
 ```
 
-* SYNB 3.3V Pin1  红色
-* GPIO 5  黄色
-* GPIO 6  绿色
-* GPIO 27 绿色
-* GPIO 17 黄色
+* SYNB 3.3V -> Pin1  红色
+* AIN1 -> GPIO 5  黄色
+* AIN2 -> GPIO 6  绿色
+* BIN1 -> GPIO 27 绿色
+* BIN2 -> GPIO 17 黄色
 
 ![drv8833](img/drv8833_pinout.jpg)
 
